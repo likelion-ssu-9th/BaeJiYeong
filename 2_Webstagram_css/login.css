@@ -1,0 +1,73 @@
+.login_container {
+  width: 350px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid #e6e6e6;
+}
+.logo_header {
+  width: 50px;
+  height: 80px;
+  display: flex;
+  justify-self: center;
+  padding: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 160px;
+}
+.login_box {
+  display: flex;
+  flex-direction: column;
+}
+.login_input,
+.password_input {
+  width: 268px;
+  height: 38px;
+  color: #999999;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 7px;
+}
+.btn {
+  margin-top: 5px;
+}
+.login_btn {
+  width: 268px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  margin: 5px 0 55px;
+  background-color: #0095f6;
+  color: white;
+  font-size: 14px;
+}
+.login_btn:disabled {
+  background-color: #c0dffd;
+}
+.signup_container {
+  width: 350px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid #e6e6e6;
+}
+.join_insta {
+  font-size: 14px;
+  color: #013569;
+  text-decoration: none;
+  align-items: baseline;
+}
+.join_btn {
+  color: #0095f6;
+  border: #fafafa;
+  background-color: #fafafa;
+  font-size: 14px;
+}
