@@ -1,0 +1,46 @@
+.cardView {
+  width: 300px;
+  height: 700px;
+  margin: 0 auto;
+}
+.userNickName {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px auto 20px 20px;
+}
+.cardImage img {
+  width: 300px;
+}
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.infoLeft,
+.infoRight {
+  display: flex;
+}
+
+.feedImg {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+
+.comment {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+.comment_form {
+  margin-top: 5px;
+}
+
+form {
+  background-color: white;
+}
+
+input {
+  background-color: white;
+  border: none;
+  padding: 5px;
+}

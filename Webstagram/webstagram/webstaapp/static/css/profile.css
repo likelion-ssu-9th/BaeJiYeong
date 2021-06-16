@@ -1,0 +1,66 @@
+header {
+  width: 900px;
+  height: 200px;
+  margin-left: 70px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #fafafa;
+}
+#profileButton {
+  border: none;
+  background-color: white;
+}
+.profileImg {
+  border-radius: 70%;
+  background-color: #fafafa;
+}
+.profileDetail {
+  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.profileEditContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.profileEditLetter {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.profileEditButton {
+  width: 80px;
+  height: 30px;
+  border: #e6e6e6 1.5px solid;
+  font-size: 14px;
+}
+.information ul li {
+  display: inline-block;
+  list-style: none;
+}
+.profileContent {
+  display: flex;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+  height: 300px;
+  justify-content: center;
+  margin: 50px auto 70px auto;
+}
+
+main ul {
+  display: none;
+}
+
+.postImg:hover {
+  filter: opacity(0.7) drop-shadow(0 0 0 black);
+}
+
+.postImg:hover ul {
+  display: flex;
+  align-items: center;
+}

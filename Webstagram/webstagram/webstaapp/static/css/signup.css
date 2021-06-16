@@ -1,0 +1,75 @@
+.signUp_container {
+  width: 300px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 1px solid #e6e6e6;
+}
+.instagramText {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-self: center;
+  padding: 5px;
+  margin: 20px auto 20px auto;
+}
+.joinLetter {
+  color: #8e8e8e;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 30px 0 30px;
+}
+.line {
+  border: 1px solid #dbdbdb;
+}
+.login_box {
+  display: flex;
+  flex-direction: column;
+}
+.userSignUp {
+  width: 200px;
+  height: 20px;
+  color: #999999;
+  background-color: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 7px;
+}
+.signUpButton {
+  width: 220px;
+  height: 43px;
+  border: none;
+  margin: 5px 0 55px;
+  border-radius: 3px;
+  background-color: #0095f6;
+  color: white;
+  font-size: 14px;
+}
+.signUpButton:disabled {
+  background-color: #c0dffd;
+}
+.login_container {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid #e6e6e6;
+}
+.join {
+  font-size: 12px;
+  text-decoration: none;
+  align-items: baseline;
+}
+.joinBtn {
+  color: #0095f6;
+  border: #fafafa;
+  background-color: #fafafa;
+  font-size: 12px;
+}
